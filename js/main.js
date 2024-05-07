@@ -21,3 +21,16 @@ const images = [
         text: 'Marvel\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
     }
 ];
+
+
+const container = document.getElementById("container");
+
+for (let i = 0; i < images.length; i++) {
+    let slide = images[i]
+
+    container.innerHTML += `<div class="container">
+                            <img src="./img/${slide.image}"></img>
+                            <p>Nome: ${slide.title}</p>
+                            <p>Ruolo: ${slide.text}</p>
+                            </div>`
+}
