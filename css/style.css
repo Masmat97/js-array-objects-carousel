@@ -1,0 +1,26 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.carousel {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .carousel-container {
+    overflow: hidden;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
